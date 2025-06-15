@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>TaskMaster - Gerenciador de Tarefas</title>
+<link rel="stylesheet" href="/style.css">
+
+</head>
+<body>
+<div id="app" aria-label="TaskMaster aplicativo de gerenciamento de tarefas">
+  <h1>TaskMaster</h1>
+  <form id="task-form" aria-label="Formulário para adicionar tarefas">
+    <input type="text" id="task-input" placeholder="Nova tarefa..." aria-label="Campo para nova tarefa" />
+    <button type="submit" aria-label="Adicionar tarefa">+</button>
+  </form>
+  <ul id="task-list" aria-live="polite" aria-relevant="additions removals"></ul>
+  <footer>
+    &copy; 2025 TaskMaster - Desenvolvido por Miguel Gomes
+  </footer>
+</div>
+
+<script src="/script.js"></script>
+</body>
+</html>
+
